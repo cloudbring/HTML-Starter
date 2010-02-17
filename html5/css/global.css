@@ -1,0 +1,43 @@
+/**
+ * @author Bilal Cinarli
+ * @copyright 2010 - ICON Perception Managemet Co.
+ * @company ICON Perception Managemet Co.
+ * @email contact@icon-pm.com
+ * @web http://www.icon-pm.com
+ * @project html starter kit
+ * @file global.css
+ * @version 
+ * @created 2010.1.4 15:43
+ * @modified 2010.1.4
+ * @modifier Bilal Cinarli
+**/
+
+ /*  ------------------- Global Settings & Reset  ------------------- */
+ 	.group-end:after { clear: both; content: " "; display: block; font-size: 0; height: 0; visibility: hidden; }
+    * html .group-end { height: 1px; } /* IE6 */
+    *:first-child+html .group-end { min-height: 0; } /* IE7 */
+ 
+	html, body { border:0; height: 100%; margin:0; padding:0; width: 100%; }
+	body { background: #fff; color: #111; font:10px/1.5 Tahoma, Geneva, sans-serif; }
+
+ 	h1, h2, h3, h4, h5, h6 { font-weight:normal; margin:0; padding:0; }
+
+	p, ul, ol, form, fieldset, button, input { margin:0; padding:0; }
+
+	ul, ol { list-style:none; }
+
+	blockquote { margin:22px 40px; padding:0; }
+
+	img, fieldset, input { border:0; }
+    
+    button, label { cursor: pointer; }
+
+	sup { bottom:0.3em; position:relative; vertical-align:baseline; }
+
+	sub { bottom:-0.2em; position:relative; vertical-align:baseline; }
+
+	acronym, abbr { border-bottom:1px dashed; cursor:help; letter-spacing:1px; }
+    
+    a, a:visited, a:active { text-decoration:none; }
+    a:focus { overflow: hidden; }
+ /*  ------------------- Global Settings & Reset  ------------------- */

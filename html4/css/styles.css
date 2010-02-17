@@ -1,0 +1,73 @@
+/**
+ * @author Bilal Cinarli
+ * @copyright 2010 - ICON Perception Managemet Co.
+ * @company ICON Perception Managemet Co.
+ * @email contact@icon-pm.com
+ * @web http://www.icon-pm.com http://bcinarli.com
+ * @project html starter kit
+ * @file styles.css
+ * @version 
+ * @created 2010.1.6 12:16
+ * @modified 2010.1.6
+ * @modifier Bilal Cinarli
+**/
+
+ /*  ------------------- Layout  ------------------- */
+    body { text-align: left; }
+    #wrapper { height: auto !important; height: 100%; margin: 0 auto -20px; min-height: 100%; }
+    
+        #header { margin-bottom: 10px; }
+        
+        #content { float: left; width: 660px; }
+        
+        #aside { float: right; width: 280px; }
+        
+        #push { clear: both; height: 20px; }
+    
+    #footer { height: 20px; margin: 0 auto; text-align: center; }
+    
+    #wrapper, #header, #content, #aside, #footer { position: relative; }
+    
+    #wrapper, #footer { width: 960px; }
+ /*  ------------------- Layout  ------------------- */
+ /*  ------------------- Layout Parts  ------------------- */
+    /* common */
+
+    /* header */
+    #header h1 { font-size: 3em; }
+    #header h2 { font-size: 2em; }
+    
+    /* navigation */
+    #nav { margin-left: -5px; }
+    #nav li { display: inline; border-right: 1px solid; font-size: 1.3em; padding: 0 5px; }
+        #nav li a { color: #222; }
+        #nav li a:hover { color: #555; }
+    
+    /* search */
+    #search { position: absolute; right: 0; top: 20px; }
+    #search #s { border: 1px solid #bdbdbd; padding: 2px; }
+    
+    /* content */
+    .article { font-size: 1.2em; margin-bottom: 20px; }
+    .article h1 { font-size: 1.8em; }
+    .article h2 { font-size: 1.6em; }
+    .article h3 { font-size: 1.4em; }
+    .article a { border-bottom: 1px dotted; color: #222; padding-bottom: 1px; }
+    .article a:hover { border-bottom-style: solid; color: #000; }
+    .article p.info { color: #999; font-size: 0.9em; }
+        .article p.info a { border-bottom: none; color: #555; }
+        .article p.info a:hover { color: #000; }
+        .article p.info span.date { color: #555; }
+    .article p, .article ul, .article ol { margin-bottom: 10px; }
+    .article ul ul, .article ol ol { margin-left: 20px; }
+    .article ul li { list-style: inside disc; }
+    .article ol li { list-style: inside decimal; }
+    
+    /* aside */
+    #aside { font-size: 1.2em; }
+        #aside h3 { font-size: 1.6em; }
+        #aside p, #aside ul, #aside ol { margin-bottom: 10px; }
+        #aside ul li { list-style: inside square; }
+    
+
+ /*  ------------------- Layout Parts  ------------------- */
